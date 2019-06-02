@@ -3,17 +3,6 @@
 A self-signing certificate authority manager - create your own certificate
 authority, and generate and manage SSL certificates using openssl.
 
-If you want to see how caman works and why it exists, you read the
-accompanying article,
-[Self-Signing Certificate Authorities](http://radiac.net/blog/2015/05/self-ca/)
-
-This document explains how to use caman to
-[create a certificate authority](#creating-a-certificate-authority), optionally [use an intermediate CA](#using-an-intermediate-ca), and to
-[create, sign, renew and revoke](#managing-host-certificates) host
-certificates.
-
-Version 0.3.2, 2016-11-24. For changelog and upgrade information, see
-[Changes](CHANGES.md)
 
 ### Quickstart
 
