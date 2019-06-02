@@ -175,8 +175,3 @@ so is suitable for replacing both expired or compromised host certificates
 You will need to re-publish ``ca/ca.crl.pem`` after running this command.
 
 
-### Contributing
-
-Contributions are welcome, preferably via pull request.
-
-Thanks to all contributors, who are listed in [CHANGES](CHANGES.md)
