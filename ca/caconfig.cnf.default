@@ -25,8 +25,8 @@ name_opt                = ca_default
 cert_opt                = ca_default
 
 # V2 CRLs
-crl_extensions          = crl_ext
-crlnumber               = $dir/crlnumber
+#crl_extensions          = crl_ext
+#crlnumber               = $dir/crlnumber
 
 # Default expiration and encryption policies for certificates
 # 30 days for CRL, 100 years for certs
@@ -94,7 +94,7 @@ subjectKeyIdentifier    = hash
 authorityKeyIdentifier  = keyid:always,issuer
 basicConstraints        = CA:true
 # >> Change the following URL
-crlDistributionPoints   = URI:http://example.com/ca.crl.pem
+#crlDistributionPoints   = URI:http://example.com/ca.crl.pem
 # << End changes
 
 ####################################################################
